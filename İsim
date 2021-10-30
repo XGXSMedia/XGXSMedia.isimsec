@@ -1,0 +1,23 @@
+# -*- coding: utf-8 -*-
+ 
+from tkinter import *
+ 
+from tkinter import messagebox
+ 
+pencere = Tk()
+ 
+pencere.title("www.isimseç.com")
+pencere.geometry("400x300")
+ 
+uygulama = Frame(pencere)
+uygulama.grid()
+ 
+Lb1 = Listbox(uygulama)
+Lb1.insert(1, "Ayşe")
+Lb1.insert(2, "Aişe")
+Lb1.insert(3, "Ömer")
+Lb1.insert(4, "Meryem")
+Lb1.insert(5, "Tuğba")
+Lb1.grid(padx=110, pady=10)
+ 
+pencere.mainloop()
